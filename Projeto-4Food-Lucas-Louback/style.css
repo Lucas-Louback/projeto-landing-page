@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+header {
+    padding-left: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e7e2df;
+    max-height: 12vh;
+    position: sticky;
+    top: 0;
+    font-size: 1rem;
+    display: flex;
+}
+
+main {
+    margin: auto;
+    background-color: #e7e2df;
+    color: #502811;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+section {
+    background-color: #e7e2df;
+    align-items: center;
+    max-width: 100%;
+}
+
+#sobre {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#onde {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#clube {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#cadastro {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 15%;
+    font-size: 100%;
+    max-width: 80vw;
+    min-height: 50vh;
+}
+
+
+
+p {
+    font-size: 1.3rem;
+}
+
+
+button {
+    color: white;
+    background-color: #a18d81;
+    font-size: 1rem;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+button:active {
+    color: white;
+    background-color: #a18d81;
+}
+
+footer {
+    text-align: center;
+    color: #e7e2df;
+    background-color: #3c3c3c;
+    max-height: 7vh;
+    position: sticky;
+    bottom: 0vh;
+}
+
+@media screen and (max-device-width : 480px) {
+
+    /* celulares */
+    #sobre {
+        grid-template-columns: 1fr;
+    }
+
+    #onde {
+        grid-template-columns: 1fr;
+    }
+
+    #clube {
+        grid-template-columns: 1fr;
+    }
+
+    .text {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+
+    /* tablets */
+    #sobre {
+        grid-template-columns: 1fr;
+    }
+
+    #onde {
+        grid-template-columns: 1fr;
+    }
+
+    #clube {
+        grid-template-columns: 1fr;
+    }
+
+    .text {
+        margin-left: 10%;
+    }
+}
