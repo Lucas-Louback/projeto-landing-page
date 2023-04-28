@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page 4Food</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="./Imagens-e-ícones/4food-Logo (1).png" alt="" width="5%">
+            <a href="#sobre">Sobre</a>
+            <a href="#onde">Onde estamos?</a>
+            <a href="#clube">Clube de Descontos</a>
+            <a href="#cadastro">cadastro</a>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <div class="text">
+                <h1>Sobre a empresa</h1>
+                <p>O 4Food é um mercado moderno e vibrante que oferece uma ampla variedade de alimentos frescos e
+                    saudáveis, desde frutas e verduras orgânicas até carnes, peixes e pães artesanais. Com um forte
+                    compromisso com a sustentabilidade e com a produção local, o mercado é conhecido por sua qualidade
+                    excepcional e por ser uma escolha consciente para os consumidores preocupados com a origem dos
+                    alimentos. Com opções pré-cozidas deliciosas e um espaço de degustação e eventos para os amantes da
+                    culinária, o 4Food se tornou um ponto de encontro popular para aqueles que buscam uma experiência de
+                    compras completa e saudável.</p><br>
+                <button onclick="window.location.href='#cadastro', exibirAlerta()">Quero ser membro do clube de
+                    descontos</button>
+            </div>
+            <section class="imagem">
+                <p><a href="#cadastro"><img src="./Imagens-e-ícones/4food-Logo (1).png" width="100%" alt=""></a></p>
+            </section>
+
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section id="onde">
+            <div class="text">
+                <h1>Onde estamos</h1>
+                <p>A 4Food está em todas as capitais da região sudeste!</p><br>
+                <button onclick="window.location.href='#cadastro', exibirAlerta()">Quero ser membro do clube de
+                    descontos</button>
+            </div>
+            <section class="imagem3">
+                <p><a href="#cadastro"><img src="./Imagens-e-ícones/regiao-sudeste-removebg-preview.png" width="100%"
+                            alt=""></a>
+                </p>
+            </section>
+
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <section id="clube">
+            <div class="text">
+                <h1>Sobre o clube de descontos</h1>
+                <p>Esse é o Clube de Descontos 4Food! O lugar perfeito para os amantes de comida economizarem dinheiro
+                    enquanto aproveitam deliciosas refeições. Com o nosso clube de descontos exclusivo, os membros
+                    recebem
+                    ofertas e promoções especiais em todos os produtos do mercado, desde frutas e legumes frescos até
+                    carnes, bebidas e muito mais. Além disso, com o nosso programa de fidelidade, você pode acumular
+                    pontos
+                    para obter ainda mais descontos em suas compras futuras. Junte-se ao clube 4Food hoje mesmo e comece
+                    a
+                    economizar enquanto saboreia as melhores ofertas em alimentos de qualidade!</p>
+                <br>
+                <button onclick="window.location.href='#cadastro', exibirAlerta()">Quero ser membro do clube de
+                    descontos</button>
+
+            </div>
+            <section class="imagem2">
+                <p><a href="#cadastro"><img src="./Imagens-e-ícones/Clube-de-desconto.png" width="70%" alt=""></a></p>
+            </section>
+
+        </section>
+
+        <br>
+        <br>
+
+        <section id="cadastro">
+            <h1>Cadastre-se já!!</h1>
+            <h2>Formulário</h2>
+
+            <form onsubmit="exibirDados(event)">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"><br>
+
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <footer>
+            <h3>
+
+                <a href="https://instagram.com" target="_blank"><img src="./Imagens-e-ícones/instagram.png" width="3%"
+                        alt=""></a>
+                <a href="https://facebook.com" target="_blank"><img src="./Imagens-e-ícones/Facebook.png" width="3%"
+                        alt=""></a>
+            </h3>
+
+        </footer>
+
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
